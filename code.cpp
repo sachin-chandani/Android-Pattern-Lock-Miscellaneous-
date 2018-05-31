@@ -57,6 +57,7 @@ int main()
 			for(int k=0;k<=n;k++)
 				for(int m=0;m<=n;m++)
 					board[k][m].mark=0;
+/*
 			cout<<"for-->"<<i<<" "<<j<<nl;
 			for(int k=1;k<=n;k++)
 			{
@@ -67,7 +68,7 @@ int main()
 				pr_nl;
 
 			}
-
+*/
 			x=i,y=j;
 			while(x<=n && y<=n){
 				board[x][y].mark=1;
@@ -114,7 +115,7 @@ int main()
 					List[board[i][j].val].pb(board[k][m].val);
 			}
 
-
+/*
 			for(int k=1;k<=n;k++)
 			{
 				for(int m=1;m<=n;m++){
@@ -124,7 +125,7 @@ int main()
 				pr_nl;
 
 			}
-
+*/
 
 
 
@@ -132,7 +133,6 @@ int main()
 
 		}
 	}
-
 
 	for(int i=1;i<=n*n;i++){
 		cout<<i<<"---> ";
